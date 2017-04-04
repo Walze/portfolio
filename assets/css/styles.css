@@ -1,3 +1,5 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
 body {
     background: #1f1f22;
@@ -20,4 +22,27 @@ footer.major.container {
 
 .feature {
     background: #1f1f22;
+}
+
+.feature .image img {
+    min-width: 0;
+    width: 33.333%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.featureWords {
+    position: absolute;
+    display: block;
+    float: none;
+    
+    line-height: 50px;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
