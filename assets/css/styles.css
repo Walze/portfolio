@@ -17,3 +17,7 @@ footer.major.container {
     margin-bottom: 100px;
     z-index: 10;
 }
+
+.feature {
+    background: #1f1f22;
+}
