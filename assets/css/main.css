@@ -1796,7 +1796,7 @@
 	}
 
 	body {
-		background: #ffffff;
+		background: #1f1f22;
 	}
 
 		body.is-loading * {
@@ -1911,7 +1911,7 @@
 		}
 
 		header.major {
-			border-bottom-width: 1px;
+			border-bottom-width: 0px;
 			border-color: rgba(224, 224, 224, 0.75);
 			border-style: solid;
 			border-top-width: 1px;
@@ -1981,7 +1981,7 @@
 		}
 
 			footer.major:before, footer.major:after {
-				background: rgba(224, 224, 224, 0.75);
+				background: #1f1f22;
 				content: '';
 				display: block;
 				height: 1px;
@@ -2930,10 +2930,12 @@
 		/* Feature */
 
 			.feature {
-				background: #ffffff;
+				background: #1f1f22;
 				display: block;
 				height: auto;
 				margin-bottom: 2em;
+					border: solid 1px #333;
+				
 			}
 
 				.feature:last-child {
@@ -2951,7 +2953,6 @@
 				}
 
 				.feature .content {
-					border: solid 1px rgba(224, 224, 224, 0.75);
 					padding: 2em !important;
 					text-align: center;
 					width: 100%;

@@ -3,6 +3,17 @@ body {
     background: #1f1f22;
 }
 
+#header * {
+    z-index: 1;
+}
+
+#maindiv {
+    z-index: 10;
+    background: #1f1f22;
+    margin-top: -10px;
+}
+
 footer.major.container {
-    margin-bottom: 300px;
+    margin-bottom: 100px;
+    z-index: 10;
 }
