@@ -24,6 +24,7 @@ div.container {
 #footer {
     z-index: 1;
     margin-top: 0;
+    margin-bottom: -200px;
 }
 
 #maindiv {
@@ -111,6 +112,10 @@ footer.major.container {
 
 footer.major {
     border-bottom: 0;
+}
+
+#footer {
+
 }
 
 header.major {
