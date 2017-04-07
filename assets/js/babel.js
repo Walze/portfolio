@@ -3,7 +3,7 @@ function getRandomword() {
     var con2 = '';
     var con3 = 'rtysdfhjklzxvnm';
     var con4 = '';
-    var vow = 'aeiou';
+    var vow = 'aaaeeeiiioouu';
     var vow2 = '';
     var word = '';
     var tamanho = Math.floor(Math.random() * 4) + 1;
@@ -11,14 +11,14 @@ function getRandomword() {
     for (var i = 0; i < tamanho; i++) {
         var n1 = Math.floor(Math.random() * 20);
         var n2 = Math.floor(Math.random() * 8);
-        var vow3 = vow[Math.floor(Math.random() * 5)];
+        var vow3 = vow[Math.floor(Math.random() * 12)];
         con2 = con[Math.floor(Math.random() * 20)];
         if (con2 == 'y') {
             con2 = con[Math.floor(Math.random() * 20)];
         }
 
         con4 = con3[Math.floor(Math.random() * 15)];
-        vow2 = vow[Math.floor(Math.random() * 5)];
+        vow2 = vow[Math.floor(Math.random() * 12)];
 
         if (con2 === 'q') {
             con2 += 'u' + vow2;
